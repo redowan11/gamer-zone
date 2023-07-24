@@ -146,10 +146,45 @@
     .c-d-c {
         display: flex;
         align-items: center;
+
       
     }
     
     .career-img {
         width:100%;
     }
+    /* button section */
+    .btn-container-one {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .btn-container-two{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+     /* footer section */
+
+     .one{
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .two{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
+    }
+
+    .three{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .four{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  
 }
+   
