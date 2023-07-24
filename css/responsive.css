@@ -1,49 +1,55 @@
 /* nav section */
 @media screen and (max-width: 576px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
-       
+
     }
-    .nav-menu{
+
+    .nav-menu {
         width: 100%;
     }
-    .logo{
+
+    .logo {
         width: 100%;
         margin-bottom: 5px;
     }
-    .nav-menu>ul{
+
+    .nav-menu>ul {
         flex-direction: column;
         align-items: center;
         list-style-type: none;
-        
+
     }
+
     /* banner section */
-    .banner-container{
-        flex-direction: column-reverse; 
+    .banner-container {
+        flex-direction: column-reverse;
     }
-    .banner-text-container{
+
+    .banner-text-container {
         width: 50%;
         margin: 0 auto;
         text-align: left;
         padding: 25px
-        
-       
     }
-    .banner-img-container{
+
+    .banner-img-container {
         width: 50%;
         margin: 0 auto;
     }
-    .banner-img-container>img{
+
+    .banner-img-container>img {
         width: 100%;
         margin: 0 auto;
-     }
+    }
 
-     .banner-head{
+    .banner-head {
         text-align: left;
         font-family: 'Work Sans';
         font-size: 35px;
     }
-    .btn-one{
+
+    .btn-one {
         display: inline-flex;
         padding: 15px 15px;
         align-items: flex-start;
@@ -54,12 +60,12 @@
         color: #FFF;
         font-size: 16px;
         font-weight: 400;
-       
+
         margin-top: 20px;
-        
+
     }
-    
-    .btn-two{
+
+    .btn-two {
         display: inline-flex;
         padding: 15px 15px;
         align-items: flex-start;
@@ -73,6 +79,7 @@
         text-transform: uppercase;
         margin-top: 20px;
     }
+
     /* funny videos */
     .og {
         margin-top: 60px;
@@ -82,7 +89,7 @@
         font-weight: 700;
         margin-bottom: 12px;
     }
-    
+
     .fv {
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
         background-clip: text;
@@ -92,7 +99,7 @@
         font-style: normal;
         font-weight: 700;
     }
-    
+
     .fd {
         color: #534C64;
         text-align: center;
@@ -101,4 +108,31 @@
         line-height: 30px;
         margin-bottom: 24px;
     }
+
+    /* online section  */
+
+    .online-container {
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    .card-container {
+
+        height: 300px;
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    /* online section */
+    .game {
+        width: 100%;
+        margin: 100px auto 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
