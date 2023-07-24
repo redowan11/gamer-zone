@@ -1,0 +1,104 @@
+/* nav section */
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+       
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .nav-menu>ul{
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        
+    }
+    /* banner section */
+    .banner-container{
+        flex-direction: column-reverse; 
+    }
+    .banner-text-container{
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+        padding: 25px
+        
+       
+    }
+    .banner-img-container{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .banner-img-container>img{
+        width: 100%;
+        margin: 0 auto;
+     }
+
+     .banner-head{
+        text-align: left;
+        font-family: 'Work Sans';
+        font-size: 35px;
+    }
+    .btn-one{
+        display: inline-flex;
+        padding: 15px 15px;
+        align-items: flex-start;
+        gap: 10px;
+        border: none;
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+       
+        margin-top: 20px;
+        
+    }
+    
+    .btn-two{
+        display: inline-flex;
+        padding: 15px 15px;
+        align-items: flex-start;
+        gap: 10px;
+        border: none;
+        border-radius: 48px;
+        background-color: #4EC5F7;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    /* funny videos */
+    .og {
+        margin-top: 60px;
+        color: #0B0223;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    
+    .fv {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    
+    .fd {
+        color: #534C64;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+}
