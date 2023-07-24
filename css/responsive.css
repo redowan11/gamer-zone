@@ -134,5 +134,22 @@
         justify-content: center;
         align-items: center;
     }
-
+    /* career section */
+    .career {        
+    flex-direction: column;
+    }
+    .career-content {
+        width: 100%;
+    
+    }
+    
+    .c-d-c {
+        display: flex;
+        align-items: center;
+      
+    }
+    
+    .career-img {
+        width:100%;
+    }
 }

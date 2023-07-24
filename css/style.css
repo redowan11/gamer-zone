@@ -219,7 +219,7 @@ body {
 
 /* online section */
 
-.online-container{
+.online-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -227,24 +227,28 @@ body {
     gap: 10px;
     margin: 0px auto;
 }
-.card-container{
-   
+
+.card-container {
+
     height: 300px;
     width: 300px;
     margin-right: 20px;
 }
-.overlay-hover{
+
+.overlay-hover {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.overlay-hover img{
+
+.overlay-hover img {
     height: 100%;
     width: 100%;
-    
-    
+
+
 }
-.card-container p{
+
+.card-container p {
     color: #534C64;
     font-family: 'Work Sans';
     font-size: 18px;
@@ -262,17 +266,20 @@ body {
     background-color: rgb(0, 0, 0);
     opacity: 0;
 }
-.overlay-hover-background i{
+
+.overlay-hover-background i {
     position: absolute;
     top: 40%;
     left: 38%;
     font-size: 68px;
-    
+
 }
-.overlay-hover-background:hover{
+
+.overlay-hover-background:hover {
     opacity: 1;
     transition: 1s;
 }
+
 /* game section */
 
 .game {
@@ -286,9 +293,10 @@ body {
 .game-img {
     width: 50%;
     position: relative;
-    
+
 }
-.game-img>img{
+
+.game-img>img {
     height: 600px;
     width: 500px;
     margin-left: 40px;
@@ -318,8 +326,70 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
 }
+
 .game-desc {
     color: #534C64;
     font-size: 1.2rem;
 
+}
+
+/* career section */
+
+.career {
+    
+    margin-top: 220px;
+    height: 821px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 240px;
+    padding-left: 240px;
+
+}
+
+.career-content {
+    width: 50%;
+
+}
+
+.c-d-c {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+.career-img {
+    width: 50%;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.p-d {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.btn-primary {
+    font-size: 20px;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    color: #FF42A5;
+    text-transform: uppercase;
 }
